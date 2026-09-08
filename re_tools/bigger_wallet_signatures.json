@@ -5,7 +5,7 @@
       "search_sections": [
         ".text"
       ],
-      "pattern": "48 8B F9 80 B9 94 0C 00 00 00 74 36 4C 8B 05 ?? ?? ?? ?? 41 8B 88 48 01 00 00 03 CA 79 0E 33 C9",
+      "pattern": "48 8B F9 80 B9 ?? ?? ?? ?? 00 74 36 4C 8B 05 ?? ?? ?? ?? 41 8B 88 ?? ?? ?? ?? 03 CA 79 0E 33 C9",
       "displacement_offset": 15,
       "instruction_end_offset": 19
     },
@@ -21,16 +21,16 @@
       "search_sections": [
         ".text"
       ],
-      "pattern": "?? ?? ?? ?? 3B C8 0F 4F C8 41 89 88 48 01 00 00 8B 55 6F EB 06 01 91 90 0C 00 00 85 D2",
-      "match_offset": 0
+      "pattern": "B8 ?? ?? ?? ?? 3B C8 0F 4F C8 41 89 88 ?? ?? ?? ?? 8B 55 6F EB 06 01 91 ?? ?? ?? ?? 85 D2",
+      "match_offset": 1
     },
     "RVA_PATCH_COIN_CAP_2": {
       "resolver": "pattern_start_rva",
       "search_sections": [
         ".text"
       ],
-      "pattern": "?? ?? ?? ?? 44 3B C0 44 0F 4F C0 44 89 81 48 01 00 00 C3 CC CC CC CC CC 48 89 5C 24 10",
-      "match_offset": 0
+      "pattern": "B8 ?? ?? ?? ?? 44 3B C0 44 0F 4F C0 44 89 81 ?? ?? ?? ?? C3 CC CC CC CC CC 48 89 5C 24 10",
+      "match_offset": 1
     },
     "RVA_PATCH_COIN_CAP_3": {
       "resolver": "pattern_start_rva",
@@ -45,47 +45,47 @@
       "search_sections": [
         ".text"
       ],
-      "pattern": "?? ?? ?? ?? 3B C2 0F 4F C2 89 81 48 01 00 00 48 8B 43 08 FF 48 0C 48 8B 0B 8B 81 98 00 00 00",
-      "match_offset": 0
+      "pattern": "BA ?? ?? ?? ?? 3B C2 0F 4F C2 89 81 ?? ?? ?? ?? 48 8B 43 08 FF 48 0C 48 8B 0B 8B 81 98 00 00 00",
+      "match_offset": 1
     },
     "RVA_PATCH_COIN_CAP_5": {
       "resolver": "pattern_start_rva",
       "search_sections": [
         ".text"
       ],
-      "pattern": "?? ?? ?? ?? 3B D0 0F 4F D0 41 89 90 48 01 00 00 89 6E 5C 48 8B 6C 24 38",
-      "match_offset": 0
+      "pattern": "B8 ?? ?? ?? ?? 3B D0 0F 4F D0 41 89 90 ?? ?? ?? ?? 89 6E 5C 48 8B 6C 24 38",
+      "match_offset": 1
     },
     "RVA_PATCH_COIN_CAP_6": {
       "resolver": "pattern_start_rva",
       "search_sections": [
         ".text"
       ],
-      "pattern": "?? ?? ?? ?? 3B C2 0F 4F C2 89 81 48 01 00 00 48 8B 97 00 01 00 00 8B 92 A0 00 00 00",
-      "match_offset": 0
+      "pattern": "BA ?? ?? ?? ?? 3B C2 0F 4F C2 89 81 ?? ?? ?? ?? 48 8B 97 00 01 00 00 8B 92 A0 00 00 00",
+      "match_offset": 1
     },
     "RVA_PATCH_COIN_CAP_7": {
       "resolver": "pattern_start_rva",
       "search_sections": [
         ".text"
       ],
-      "pattern": "?? ?? ?? ?? 3B CA 0F 4F CA 41 89 88 48 01 00 00 48 8D 45 C0 48 89 85 98 00 00 00",
-      "match_offset": 0
+      "pattern": "BA ?? ?? ?? ?? 3B CA 0F 4F CA 41 89 88 ?? ?? ?? ?? 48 8D 45 C0 48 89 85 98 00 00 00",
+      "match_offset": 1
     },
     "RVA_PATCH_COIN_CAP_8": {
       "resolver": "pattern_start_rva",
       "search_sections": [
         ".text"
       ],
-      "pattern": "?? ?? ?? ?? 3B C2 0F 4F C2 8B D8 89 99 48 01 00 00 4C 8D 9C 24 70 01 00 00",
-      "match_offset": 0
+      "pattern": "BA ?? ?? ?? ?? 3B C2 0F 4F C2 8B D8 89 99 ?? ?? ?? ?? 4C 8D 9C 24 70 01 00 00",
+      "match_offset": 1
     },
     "ADVENTURE_COINS_OFFSET": {
       "resolver": "u32_at_pattern_offset",
       "search_sections": [
         ".text"
       ],
-      "pattern": "48 8B F9 80 B9 94 0C 00 00 00 74 36 4C 8B 05 ?? ?? ?? ?? 41 8B 88 48 01 00 00 03 CA 79 0E 33 C9",
+      "pattern": "48 8B F9 80 B9 ?? ?? ?? ?? 00 74 36 4C 8B 05 ?? ?? ?? ?? 41 8B 88 ?? ?? ?? ?? 03 CA 79 0E 33 C9",
       "value_offset": 22
     },
     "HELD_COINS_OFFSET": {
